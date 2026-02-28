@@ -7,12 +7,26 @@
     <title>Clone - Disney Plus</title>
 </head>
 <body>
-    <h1>Olá</h1>
+    <header class="header">
+        <div class="header__container">
+            <h1>
+                <img class="header__logo" src="dist/media/disneyplus.svg" alt="Disney Plus">
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a href="#" class="button button--secundary">Assine Agora</a>
+                </li>
+                <li class="header__links__item">
+                    <a href="#" class="button button--dark">Entrar</a>
+                </li>
+            </ul>
+        </div>
+    </header>
     <section class="hero">
         <div class="hero__content">
-            <h1 class="hero__content__branding">
-                <img src="dist/media/disneyplus.svg" alt="Logo Disney Plus" alt="Disney Plus">
-            </h1>
+            <div class="hero__content__branding">
+                <img src="dist/media/disneyplus.svg" alt="Disney Plus">
+            </div>
             <h3 class="title--small">
                 As Melhores Histórias Em Um Só Lugar.
             </h3>
@@ -139,6 +153,191 @@
             *O preço pode variar caso a assinatura seja feita através de outras plataformas.
         </p>
     </section>
+    <section class="image-text-section">
+        <img src="./dist/media/tv_pc_tablet_celular.png" alt="Imagem com tv, pc, tablet e celular">
+        <div class="image-text-section__text_container">
+            <h2 class="title">Assista do seu jeito</h2>
+            <p class="text--big">
+                Aproveite a tela grande da TV ou assista no tablet, laptop, celular e outros aparelhos. Nossa seleção de títulos em 4K não para de crescer. Além disso, para a felicidade de todos, é possível assistir em até 4 telas ao mesmo tempo.
+            </p>
+        </div>
+    </section>
+    <section class="image-text-section image-text-section--image-full-width">
+        <picture>
+            <source media="(max-width: 768px)" srcset="./dist/media/fundo_rei_leao_celular.png">
+            <img src="./dist/media/fundo_rei_leao.png" alt="Rei Leão">
+        </picture>
+        <div class="image-text-section__text_container image-text-section--image-full-width__text_container">
+            <h2 class="title">Baixe filmes e séries</h2>
+            <p class="text--big">
+                Baixe e assiste onde e quando quiser. Assim, seus favoritos estão sempre com você, até mesmo sem internet. 
+            </p>
+        </div>
+    </section>
+    <section class="available-devices">
+        <h2 class="title">Disponível nos seus dispositivos favoritos</h2>
+        <ul class="available-devices__list">
+            <li class="available-devices__list__item">
+                <img src="./src/media/dispositivos/computador.png" alt="Computador">
+                <h4 class="title--small">Computador</h4>
+                <ul class="text">
+                    <li>Chrome Os</li>
+                    <li>MacOs</li>
+                    <li>PC Windows</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./src/media/dispositivos/tv.png" alt="TV">
+                <h4 class="title--small">TV</h4>
+                <ul class="text">
+                    <li>Amazon Fire TV</li>
+                    <li>Android TV</li>
+                    <li>Apple TV</li>
+                    <li>Chromecast</li>
+                    <li>TVs LG</li>
+                    <li>Roku</li>
+                    <li>Samsung</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./src/media/dispositivos/videogames.png" alt="Videogame">
+                <h4 class="title--small">Videogame</h4>
+                <ul class="text">
+                    <li>PS4</li>
+                    <li>PS5</li>
+                    <li>Xbox One</li>
+                    <li>Xbox Series S</li>
+                    <li>Xbox Series X</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./src/media/dispositivos/celular.png" alt="Celulares e Tablets">
+                <h4 class="title--small">Celulares e Tablets</h4>
+                <ul class="text">
+                    <li>Tablets Amazon Fire</li>
+                    <li>Celulares e Tablets Android</li>
+                    <li>Iphone e Ipad</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section class="faq">
+        <h2 class="title">Perguntas Frequentes</h2>
+        <ul class="faq__questions">
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    O que é Disney+?
+                </div>
+                <div class="faq__questions__item__answer text--big ">
+                    <p>Disney+ é a casa de streaming da Disney, Pixar, Marvel, Star Wars, National Geographic e outras. De lançamentos novos aos seus clássicos favoritos e Originais exclusivos, há <p></p>algo para todos, tudo sem anúncios.</p>
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    O que posso assistir no Disney+?
+                </div>
+                <div class="faq__questions__item__answer text--big text--subItem">
+                    <p>Com o Disney+, você pode escolher entre uma coleção de histórias que não para crescer.</p>
+                    <p></p>
+                    <ul>
+                        <li><p>• Novos lançamentos e clássicos atemporais</p></li>
+                        <li><p>• Novos Filmes e Séries Originais Exclusivos</p></li>
+                        <li><p>• Especiais empolgantes e eventos de streaming por tempo limitado</p></li>
+                        <li><p>• Nostálgicas lembranças e temporadas passadas dos seus programas favoritos</p></li>
+                        <li><p>• Toda a Saga Skywalker e grande parte do Universo Cinematográfico Marvel</p></li>
+                        <li><p>• Curtas queridos e experimentais</p></li>
+                        <li><p>• Documentários, séries não roteirizadas e muito mais</p></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Onde posso assistir Disney+?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    <p>
+                        O aplicativo Disney+ está disponível em dispositivos móveis, navegadores web, consoles de jogos, set-top boxes e smart TVs. Para uma lista completa de dispositivos
+                        <p></p>suportados, clique <a href="https://help.disneyplus.com/pt-BR/article/disneyplus-devices-supported" target="blank" class="linkDesc">aqui</a>.
+                    </p>
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Quanto custa o Disney+?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    <p>Acesse entretenimento ilimitado com Disney+ por $7,99/mês ou $79,99/ano.</p>
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    O que está incluído no Disney+?
+                </div>
+                <div class="faq__questions__item__answer text--big text--subItem">
+                    <p>Com o Disney+, você tem:</p>
+                    <ul>
+                        <li><p>• Uma experiência premium sem anúncios</p></li>
+                        <li><p>• Download ilimitado em até 10 dispositivos</p></li>
+                        <li><p>• Mais de 100 títulos em 4K, UHD e HDR</p></li>
+                        <li><p>• A possibilidade de assistir em quatro telas ao mesmo tempo sem custo adicional</p></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    O que é o Pacote Disney?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    <p>O Pacote Disney inclui Disney+, ESPN+ e o plano Hulu que melhor se encaixa para você por um preço com desconto. Você pode economizar 25%, comparado ao custo mensal 
+                        <p></p>de assinar os 3 serviços separadamente! Escolha entre o Pacote Disney com Hulu (suportado por anúncios) por $13,99/mês ou com Hulu (sem anúncios) por $19,99/mês. 
+                        <p></p><a href="https://web.archive.org/web/20220307004821/https://www.disneyplus.com/welcome/disney-hulu-espn-bundle" target="blank" class="linkDesc">Saiba mais.</a>
+                        <br>
+                        <br>
+                        Com Disney+, você ganha novos lançamentos, clássicos, séries e originais dos criadores da Disney, Pixar, Marvel, Star Wars e Nat Geo.
+                        <br>
+                        <br>
+                        Com o Hulu, você pode assistir a mais de 80.000 episódios de todos os tipos de TV, incluindo séries de sucesso, originais do Hulu inovadores e programas infantis.
+                        <br>
+                        <br>
+                        E com a ESPN+, você pode assistir milhares de eventos, os principais Originais, a biblioteca completa do 30 por 30 e muito mais.
+                        <br>
+                        <br>
+                        <a href="https://web.archive.org/web/20220226070129/https://www.disneyplus.com/en-gb/sign-up?type=bundle" target="blank" class="linkDesc">Compre os três</a> e comece a fazer streaming agora!</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__logo" src="./dist/media/disneyplus.svg" alt="Logo Rodapé">
+            <ul class="footer__links">
+                <li class="footer__links__item">
+                    <div class="language-selector">
+                        <img src="./dist/media/icones/globe.svg" alt="Globo">
+                        <select>
+                            <option>Inglês</option>
+                            <option selected>Português</option>
+                        </select>
+                    </div>
+                </li>
+                <li class="footer__links__item"><a href="#" class="text--small">Termos e Condições de Uso</a></li>
+                <li class="footer__links__item"><a href="#" class="text--small">Política de privacidade</a></li>
+                <li class="footer__links__item"><a href="#" class="text--small">Proteção de Dados no Brasil</a></li>
+                <li class="footer__links__item"><a href="#" class="text--small">Anúncios personalizados</a></li>
+                <li class="footer__links__item"><a href="#" class="text--small">Dispositivos compatíveis</a></li>
+                <li class="footer__links__item"><a href="#" class="text--small">Ajuda</a></li>
+                <li class="footer__links__item"><a href="#" class="text--small">Sobre o Disney+</a></li>
+            </ul>
+        <p class="text--small">
+            2022 Disney, Disney+ e The Walt Disney Company. Todos os direitos reservados. Serviço de assinatura paga. Conteúdo sujeito a disponibilidade.
+        </p>
+        <p class="text--small">
+            Disney+ é um serviço pago, baseado em assinatura e sujeito a termos e condições. O serviço Disney+ é comercializado por The Walt Disney Company (Brasil) Ltda., World Trade Center, Av. Das Nações Unidas, 12.551, 12.555, 12.559, Piso 10, São Paulo/SP - CEP 04578-903, Brasil e CNPJ/M 73.042.962/0004-20
+        </p>
+        </div>
+    </footer>
+
     <script src="./src/main.js"></script>
 </body>
 </html>
